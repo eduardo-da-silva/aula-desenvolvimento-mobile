@@ -18,12 +18,19 @@ Para instalar ou atualizar o o `nvm`, execute o comando abaixo:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ```
 
+Em seguida, edite o arquivo `~/.zshrc` e adicione as seguintes linhas:
+
+```bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
 Após a instalação, é necessário atualizar as variáveis de ambiente do seu terminal. Para tal, sugiro fechar o terminal e abrir novamente. Em seguida, você pode instalar a versão LTS do NodeJS:
 
 ```bash
 nvm install --lts
 ```
-
+<!-- 
 Precisamos do yarn para fazer a instalação dos pacotes do NodeJS. Para instalar o yarn, execute o comando abaixo:
 
 ```bash
@@ -34,7 +41,7 @@ Também, é preciso instalar o pacote `@expo/ngrox` para que as aplicações ger
 
 ```bash
 yarn global add @expo/ngrok@^4.1.0
-```
+``` -->
 
 ## Configuração das variáveis de ambiente do GIT
 
@@ -53,7 +60,6 @@ git config --global user.email "email@dominio.com"
 
 Eu sugiro que você instale as seguintes extensões para o Visual Studio Code:
 
-* [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 * [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
