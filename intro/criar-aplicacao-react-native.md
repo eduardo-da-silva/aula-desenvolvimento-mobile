@@ -23,19 +23,19 @@ O comando anterior irá criar uma aplicação React Native usando uma ferramenta
 
 ```bash
 cd exemplo-inicial-react-native
-npx expo start
+npm run start
 ```
-Note que código acima, inicialmente foi acessado o diretório do projeto. Então, foi invocado comando `npm run start -- --tunnel`, que executa o script start definido no arquivo `package.json` do projeto. Isso permite que o seu aplicativa seja acessado por meio do Expo Go em um dispositivo físico.
+Note que código acima, inicialmente foi acessado o diretório do projeto. Então, foi invocado comando `npm run start`, que executa o script start definido no arquivo `package.json` do projeto. Isso permite que o seu aplicativa seja acessado por meio do Expo Go em um dispositivo físico.
 
 Em seguida, basta abrir o aplicativo Expo Go no seu celular e escanear o QR Code que aparecerá no terminal. O Expo Go é um aplicativo que permite a execução de aplicações React Native em um dispositivo físico. Para instalar o Expo Go, basta acessar a [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US) ou a [App Store](https://apps.apple.com/br/app/expo-go/id982107779).
 
-Caso o aplicativo Expo Go não consiga escanear o QR Code, você pode tentar executar o comando `npx expo start` com a flag `--tunnel`:
+<!-- Caso o aplicativo Expo Go não consiga escanear o QR Code, você pode tentar executar o comando `npx expo start` com a flag `--tunnel`:
 
 ```bash
 npx expo start --tunnel
 ```
 
-Note que código acima foi invocado comando `npx expo start -- --tunnel`, sendo que a flag `--tunnel` é passada como argumento para o script e é usada para iniciar o servidor de desenvolvimento do Expo no modo túnel, permitindo o acesso do seu aplicativo de qualquer lugar do mundo e o teste em um dispositivo real.
+Note que código acima foi invocado comando `npx expo start -- --tunnel`, sendo que a flag `--tunnel` é passada como argumento para o script e é usada para iniciar o servidor de desenvolvimento do Expo no modo túnel, permitindo o acesso do seu aplicativo de qualquer lugar do mundo e o teste em um dispositivo real. -->
 
 ## Manter um repositório Git
 
