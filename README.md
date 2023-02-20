@@ -13,16 +13,19 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
 0. [Aula 0 - Configuração do ambiente de desenvolvimento](ambiente/intro.md)
 
 1. [Aula 1 - Conhecendo o React Native](intro/intro.md)  
-  1.1. [Criando um aplicativo React Native](intro/criar-aplicacao-react-native.html)  
-  1.2. Diferenças entre Class Components e Functional Components
-  1.3. Exercício com criação de class components e functional components
-
+  1.1. [Criando um aplicativo React Native](intro/criar-aplicacao-react-native.html) 
+  1.2. [Componentes](intro/componentes.html)  
+  1.3. [Interpolação de lista](intro/interpolacao-lista.html)  
+  1.4. [Exercícios](intro/exercicios.html)   
+ 
 2. Principais recursos do React Native
-  2.1. State
-  2.2. Props
-  2.3. Style 
-  2.4. Um ToDo App
-  2.5. Exercícios
+  2.1. Diferenças entre Class Components e Functional Components
+  2.2. Exercício com criação de class components e functional components
+  2.3. State
+  2.4. Props
+  2.5. Style 
+  2.6. Um ToDo App
+  2.7. Exercícios
 
 3. Navigation e Routing
   3.1. Routing com React Navigation
