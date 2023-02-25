@@ -10,6 +10,7 @@ copyCodeButtons.forEach((copyCodeButton, index) => {
   copyCodeButton.addEventListener('click', () => {
     // Copy the code to the user's clipboard
     window.navigator.clipboard.writeText(code);
+    alert('Todo: Copy code to clipboard');
 
     // Update the button text visually
     const { innerText: originalText } = copyCodeButton;
