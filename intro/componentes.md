@@ -140,4 +140,7 @@ const styles = StyleSheet.create({
 
 Note que, é possível utilizar componentes de classe e de função no mesmo projeto, dependendo da necessidade de cada um.
 
+
 <span style="display: flex; justify-content: space-between;"><span>[&lt; Instalação e criação de um aplicação](criar-aplicacao-react-native.html "Voltar")</span> <span>[Interpolação de uma lista &gt;](interpolacao-lista.html "Próximo")</span></span>
+
+<script src="/assets/scripts/copyCode.js"></script>
