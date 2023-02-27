@@ -82,4 +82,4 @@ Para fins de teste, o elemento `Text` foi alterado para o seguinte:
 
 Ao salvar o arquivo, o aplicativo será atualizado automaticamente no dispositivo.
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Introdução](./ "Voltar")</span> <span>[Em breve &gt;](../embreve.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Introdução](./ "Voltar")</span> <span>[Em breve &gt;](componentes.html "Próximo")</span></span>
