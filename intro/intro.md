@@ -4,9 +4,10 @@ description: Introdução ao framework React Native
 permalink: /intro
 ---
 # Índice da aula
-1. [Criando um aplicação VueJS](intro/criar-aplicacao-vuejs.html)  
-2. [Componentes de arquivo único](intro/single-file-components.html)  
-3. [Deploy da aplicação](intro/deploy-aplicacao.html)  
+1. [Criando um aplicação React Native](intro/criar-aplicacao-react-native.html)  
+2. [Componentes](intro/componentes.html)  
+3. [Interpolação de lista](intro/interpolacao-lista.html)  
+4. [Exercícios](intro/exercicios.html)  
 
 
 # O framework React Native
