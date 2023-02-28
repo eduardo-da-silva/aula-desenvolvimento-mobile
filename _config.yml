@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
 title: Desenvolvimento para Dispositivos Móveis
 description: Notas de aula do prof. Eduardo da disciplina de Desenvolvimento para Dispositivos Móveis (curso técnico)
+
+sass:
+  sass_dir: _sass
+  style: compressed
