@@ -9,6 +9,7 @@ Para interpolar uma lista no React Native existem várias alternativas. Num prim
 
 O exemplo a seguir melhor o código que foi desenvolvido até então, incluindo a listagem de  uma lista de tarefas:
 
+{% include codeHeader.html %}
 ```javascript
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import Header from './src/components/Header';
