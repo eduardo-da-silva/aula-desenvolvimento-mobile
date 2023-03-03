@@ -1,5 +1,3 @@
-@import "{{ site.theme }}";
-
 .copy-code-button {
     display: block;
 }
