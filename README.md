@@ -18,9 +18,9 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
   1.3. [Interpolação de lista](intro/interpolacao-lista.html)  
   1.4. [Exercícios](intro/exercicios.html)   
  
-2. [Aula 2 - Principais recursos do React Native](recursos/intro.md)
-  2.1. [State](recursos/state.html)
-  2.2. [Props](recursos/props.html)
+2. [Aula 2 - Principais recursos do React Native](recursos/intro.md)  
+  2.1. [State](recursos/state.html) 
+  2.2. [Props](recursos/props.html) 
   2.3. Style 
   2.4. Um ToDo App
   2.5. Exercícios

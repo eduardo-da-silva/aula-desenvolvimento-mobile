@@ -128,4 +128,4 @@ export default function App() {
 }
 ```
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](./ "Voltar")</span> <span>[Props &gt;](props.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](intro.html "Voltar")</span> <span>[Props &gt;](props.html "Próximo")</span></span>
