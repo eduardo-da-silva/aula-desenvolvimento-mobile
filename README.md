@@ -13,17 +13,17 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
 0. [Aula 0 - Configuração do ambiente de desenvolvimento](ambiente/intro.md)
 
 1. [Aula 1 - Conhecendo o React Native](intro/intro.md)  
-  1.1. [Criando um aplicativo React Native](intro/criar-aplicacao-react-native.html) 
+  1.1. [Criando um aplicativo React Native](intro/criar-aplicacao-react-native.html)  
   1.2. [Componentes](intro/componentes.html)  
   1.3. [Interpolação de lista](intro/interpolacao-lista.html)  
   1.4. [Exercícios](intro/exercicios.html)   
  
 2. [Aula 2 - Principais recursos do React Native](recursos/intro.md)  
-  2.1. [State](recursos/state.html) 
-  2.2. [Props](recursos/props.html) 
-  2.3. Style 
-  2.4. Um ToDo App
-  2.5. Exercícios
+  2.1. [State](recursos/state.html)  
+  2.2. [Props](recursos/props.html)  
+  2.3. Style  
+  2.4. Um ToDo App  
+  2.5. Exercícios  
 
 3. Navigation e Routing
   3.1. Routing com React Navigation

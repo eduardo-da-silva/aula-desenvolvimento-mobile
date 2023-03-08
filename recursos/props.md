@@ -1,57 +1,62 @@
 ---
-title: "Criação de componentes"
-permalink: /componentes/criacao
+title: "Props"
+permalink: /recursos/pros
 ---
 
-# Criação de um componentes
+# Props
 
-É importante ressaltar que os componentes podem ser criados de formas simples, diretamente em um arquivo `.html` ou dentro de um outro componente `Vue`. Aqui, nesses exemplos, abordaremos os componentes Single-File (SFC - _Single-File Components_) do Vue, em que cada componente é descrito dentro de um arquivo `.vue` independente. Este é um formato de arquivo especial que nos permite encapsular o _template_, lógica e estilização de um componente Vue em um único arquivo.
+Neste tópico vamos conhecer o recurso `props` do React Native. Este recurso é usado para passar dados de um componente pai para um componente filho.
 
-Aqui está um exemplo de um componente Vue, em um arquivo chamado `ExpandBox.vue` armazenado no diretório `src/components`:
+Para exemplificar o uso de `props`, vamos dar continuidade ao exemplo do contador. No exemplo anterior, o componente `Contador` foi criado como um componente de classe. Agora, vamos colocar um limite para o contador. O contador não pode ser incrementado se o valor for maior que um limite que será informado via `props`.
 
-```html
-<script>
-export default {
-    data() {
-        return {
-            expanded: false
-        }
-    },
-    computed: {
-        buttonText() {
-            return this.expanded ? 'Esconder' : 'Mostrar'
-        }
-    }
+Nesse caso, inicialmente vamos alterar a chamada do componente `Contador` no arquivo `src/App.js`:
+
+```jsx
+import React from 'react'
+import { View } from 'react-native'
+import Contador from './src/components/Contador'
+
+export default function App() {
+  return (
+    <View>
+      <Contador limite={10} />
+    </View>
+  )
 }
-</script>
-<template>
-    <button @click="expanded=!expanded">{{buttonText}}</button>
-    <div v-if="expanded" class="expand-box">
-        Conteúdo
-    </div>
-</template>
-
-<style scoped>
-.expand-box {
-    height: 100%;
-    padding: 20px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    box-shadow: 3px 3px 2px 2px gray;
-}
-</style>
 ```
 
-No exemplo acima, definimos um dado chamado `expanded` com o valor padrão `false`. Também foi definido um dado computado chamado `buttonText`, que e retorna a _string_ **Esconder** se o dado `expanded` seja `true` ou a _string_ **Mostrar** se o dado `expanded` for `false`.
+Note que o componente `Contador` recebe uma propriedade chamada `limite` com o valor `10`. Esta propriedade pode ser acessada através da propriedade `this.props` do componente.
 
-Na árvore HTML, definida no bloco _template_, foi adicionado um botão que, ao ser clicado, inverte o valor do dado `expanded`. Também, o texto desse botão é definido como o dado computado `buttonText` (que depende do valor de `expanded`). Em seguida, foi definida uma `div` que apenas será exibida se o dado `expanded` for `true`.
+Agora, vamos alterar o componente `Contador` para usar a propriedade `limite`:
 
-Por fim, um bloco de estilos CSS (_style scoped_) foi definido para os elementos da classe `.expand-box` (Note que apenas a div tem essa classe).
+```jsx
+import React, { Component } from 'react'
+import { View, Text, Button } from 'react-native'
 
-# Registro global de componentes
+export default class Contador extends Component {
 
-Para que possam ser utilizados (e reutilizados) em outros lugares do código. Existem duas formas de registro: global e local. Se o registro for global, ele poderá ser acesso em todos os componentes diretamente, sem precisar de configurações adicionais. Para o registro global de um componente (considerando o componente `ExpandBox` criado anteriormente), basta adicionar o seguinte comando no arquivo `main.js`:
+  state = {
+    contador: 0
+  }
 
-```js
+  incrementar = () => {
+    if (this.state.contador < this.props.limite) {
+      this.setState({ contador: this.state.contador + 1 })
+    }
+  }
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; State](state.html "Voltar")</span> <span>[Em breve &gt;](../ "Próximo")</span></span>
+  render() {
+    return (
+      <View>
+        <Text>Contador</Text>
+        <Text>{this.state.contador}</Text>
+        <Button title="Incrementar" onPress={this.incrementar} />
+      </View>
+    )
+  }
+}
+```
+
+Veja que o componente `Contador` foi alterado para usar a propriedade `limite` através da propriedade `this.props.limite`. O método `incrementar` foi alterado para verificar se o contador é menor que o limite antes de incrementar o contador.
+
+<span style="display: flex; justify-content: space-between;"><span>[&lt; State](state.html "Voltar")</span> <span>[Style &gt;](style.html "Próximo")</span></span>
