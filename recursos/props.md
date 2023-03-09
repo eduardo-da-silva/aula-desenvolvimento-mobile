@@ -1,6 +1,6 @@
 ---
 title: "Props"
-permalink: /recursos/pros
+permalink: /recursos/props
 ---
 
 # Props
