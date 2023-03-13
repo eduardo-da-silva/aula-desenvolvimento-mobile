@@ -17,4 +17,4 @@ Em linhas gerais, podemos resumir da seguinte forma:
 * `style`: usado para definir o estilo de um componente.
 
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ "Início")</span> <span>[State &gt;](state.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](./ "Início")</span> <span>[State &gt;](recursos/state.html "Próximo")</span></span>
