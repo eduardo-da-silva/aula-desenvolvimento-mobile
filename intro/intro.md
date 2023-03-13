@@ -21,4 +21,4 @@ Nas nossas aulas, para facilitar o desenvolvimento, faremos uso da ferramenta Ex
 É também possível utilizar o React Native sem o uso do Expo. Para isso, é necessário instalar o React Native CLI, que é uma ferramenta de linha de comando para criação e desenvolvimento de aplicações React Native. Contudo, para utilizar o React Native CLI, é necessário instalar o Xcode ou o Android Studio, que são ferramentas de desenvolvimento para aplicações mobile. Nesse curso não abordaremos o React Native CLI, mas caso você queira saber mais sobre ele, você pode acessar a documentação oficial.
 
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ "Início")</span> <span>[Criando uma aplicação React Native &gt;](intro/criar-aplicacao-react-native.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](./ "Início")</span> <span>[Criando uma aplicação React Native &gt;](intro/criar-aplicacao-react-native.html "Próximo")</span></span>
