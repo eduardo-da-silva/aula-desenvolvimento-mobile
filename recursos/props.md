@@ -39,7 +39,7 @@ export default class Contador extends Component {
     contador: 0
   }
 
-  incrementar = () => {
+  incrementar() {
     if (this.state.contador < this.props.limite) {
       this.setState({ contador: this.state.contador + 1 })
     }

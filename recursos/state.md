@@ -41,7 +41,7 @@ export default class Contador extends Component {
     contador: 0
   }
 
-  function incrementar() {
+  incrementar() {
     this.setState({ contador: this.state.contador + 1 })
   }
 
@@ -70,7 +70,7 @@ export default class Contador extends Component {
     contador: 0
   }
 
-  function incrementar() {
+  incrementar() {
     this.setState({ contador: this.state.contador + 1 })
   }
 
@@ -97,7 +97,7 @@ export default class Contador extends Component {
     contador: 0
   }
 
-  function incrementar() {
+  incrementar() {
     this.setState({ contador: this.state.contador + 1 })
   }
 
