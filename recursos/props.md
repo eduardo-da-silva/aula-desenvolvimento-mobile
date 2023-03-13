@@ -53,3 +53,5 @@ Por fim, um bloco de estilos CSS (_style scoped_) foi definido para os elementos
 Para que possam ser utilizados (e reutilizados) em outros lugares do código. Existem duas formas de registro: global e local. Se o registro for global, ele poderá ser acesso em todos os componentes diretamente, sem precisar de configurações adicionais. Para o registro global de um componente (considerando o componente `ExpandBox` criado anteriormente), basta adicionar o seguinte comando no arquivo `main.js`:
 
 ```js
+
+<span style="display: flex; justify-content: space-between;"><span>[&lt; State](state.html "Voltar")</span> <span>[Em breve &gt;](../ "Próximo")</span></span>
