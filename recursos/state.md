@@ -78,7 +78,7 @@ export default class Contador extends Component {
     return (
       <View>
         <Text>Contador</Text>
-        <Button title="Incrementar" onPress={this.incrementar} />
+        <Button title="Incrementar" onPress={() => this.incrementar()} />
       </View>
     )
   }
@@ -105,7 +105,7 @@ export default class Contador extends Component {
     return (
       <View>
         <Text>Contador: {this.state.contador}</Text>
-        <Button title="Incrementar" onPress={this.incrementar} />
+        <Button title="Incrementar" onPress={() => this.incrementar()} />
       </View>
     )
   }
@@ -128,4 +128,4 @@ export default function App() {
 }
 ```
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](./ "Voltar")</span> <span>[Props &gt;](props.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](. "Voltar")</span> <span>[Props &gt;](props.html "Próximo")</span></span>

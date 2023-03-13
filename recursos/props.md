@@ -50,7 +50,7 @@ export default class Contador extends Component {
       <View>
         <Text>Contador</Text>
         <Text>{this.state.contador}</Text>
-        <Button title="Incrementar" onPress={this.incrementar} />
+        <Button title="Incrementar" onPress={() => this.incrementar()} />
       </View>
     )
   }
