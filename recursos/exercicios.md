@@ -18,4 +18,4 @@ Para fixar o conteúdo, faça o seguinte exercício, conforme as instruções:
 5. As informações do filme devem ser armazenadas em um objeto, que deve ser passado como parâmetro para o componente que exibe as informações do filme.
 
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Interpolação de lista](interpolacao-lista.html "Voltar")</span> <span>[Sumário &gt;](../ "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Imagens](imagens.html "Voltar")</span> <span>[Sumário &gt;](../ "Próximo")</span></span>
