@@ -12,7 +12,7 @@ O React Native usa o CSS para estilizar os componentes, mas não o CSS padrão. 
 Em geral, os componentes React Native possuem uma propriedade `style` que aceita um objeto JavaScript com estilos. Por exemplo, para definir a cor de fundo de um componente `View` , você pode usar:
 
 ```jsx
-<View style={{ backgroundColor: 'blue' }} />
+<View style={% raw %} {{ backgroundColor: 'blue' }} {% endraw %}/>
 ```
 
 Nesse exemplo, o objeto JavaScript contém uma propriedade `backgroundColor` com o valor `blue` . O React Native mapeia essa propriedade para a propriedade nativa `backgroundColor` do componente `View`.

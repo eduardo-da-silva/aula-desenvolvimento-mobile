@@ -21,9 +21,9 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
 2. [Aula 2 - Principais recursos do React Native](recursos/intro.md)  
   2.1. [State](recursos/state.html)  
   2.2. [Props](recursos/props.html)  
-  2.3. Style  
-  2.4. Um ToDo App  
-  2.5. Exercícios  
+  2.3. [Style](recursos/style.html)  
+  2.4. [Imagens](recursos/imagens.html)  
+  2.5. [Exercícios](recursos/exercicios.html))  
 
 3. Navigation e Routing
   3.1. Routing com React Navigation

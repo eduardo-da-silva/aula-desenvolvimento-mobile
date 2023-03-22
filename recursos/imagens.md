@@ -13,7 +13,7 @@ const logo = require('./logo.png');
 
 ...
 
-<Image source={logo} style={{ width: 305, height: 159 }} />
+<Image source={logo} style={%raw}{{ width: 305, height: 159 }}{%endraw} />
 ```
 Nesse exemplo, o objeto `logo` contém o caminho para a imagem. O React Native mapeia essa propriedade para a propriedade nativa `source` do componente `Image`. Também foi definido o tamanho da imagem usando as propriedades `width` e `height` .
 
@@ -25,12 +25,12 @@ import { Image } from 'react-native';
 ...
 
 <Image
-  source={{
+  source={% raw %}{{
     uri: 'https://reactnative.dev/img/tiny_logo.png'}}
   style={{
     width: 64,
     height: 64,
-  }}
+  }}{% endraw %}
 />
 ```
 
