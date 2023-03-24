@@ -1,6 +1,6 @@
 ---
 title: "Exercícios"
-permalink: /intro/exercicios
+permalink: /recursos/exercicios
 ---
 
 # Exercícios
