@@ -1,6 +1,6 @@
 ---
 title: "Stack Navigation"
-permalink: /nevegacao/stack
+permalink: /navegacao/stack
 ---
 
 # Stack Navigation
