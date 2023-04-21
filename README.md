@@ -25,12 +25,12 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
   2.4. [Imagens](recursos/imagens.html)  
   2.5. [Exercícios](recursos/exercicios.html))  
 
-3. Navigation e Routing
-  3.1. Routing com React Navigation
-  3.2. Stack Navigation
-  3.3. Drawer Navigation
-  3.4. Bottom Tab Navigation
-  3.5. Exercícios
+3. [Aula 3 - Navigation e Routing](navegacao/intro.md)  
+  3.1. Routing com React Navigation  
+  3.2. Stack Navigation  
+  3.3. Drawer Navigation  
+  3.4. Bottom Tab Navigation  
+  3.5. Exercícios  
 
 4. Consumindo uma API e persistindo dados
   4.1. Consumindo uma API com Axios
