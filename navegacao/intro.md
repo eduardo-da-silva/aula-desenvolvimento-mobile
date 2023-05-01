@@ -3,9 +3,9 @@ title: "Navegação e Routeamento"
 description: Princípios de navegação e roteamento
 permalink: /navegacao
 ---
-<!-- # Índice da aula
-2.1. [Exemplos de uso](axios/exemplos-de-uso.md)  
-2.2. [Uso no projeto Times-Jogadores](axios/uso-times-jogadores.md)  -->
+# Índice da aula
+3.1. [Stack Navigation ](react-navigation/stack.md)  
+<!-- 2.2. [Uso no projeto Times-Jogadores](axios/uso-times-jogadores.md)  -->
 
 # Princípios de navegação e roteamento
 
