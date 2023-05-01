@@ -25,7 +25,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 function HomeScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={% raw %}{{ flex: 1, alignItems: 'center', justifyContent: 'center' }} {% endraw %}>
       <Text>Home Screen</Text>
     </View>
   );
@@ -63,7 +63,7 @@ Vamos agora, adicionar uma segunda tela ao aplicativo. Para isso, vamos criar um
 ```js
 function DetailsScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={% raw %}{{ flex: 1, alignItems: 'center', justifyContent: 'center' }}{% endraw %}>
       <Text>Details Screen</Text>
     </View>
   );
@@ -98,7 +98,7 @@ Faremos mais uma alteração no componente `HomeScreen`, para que ele possa nave
 ```js
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={% raw %}{{ flex: 1, alignItems: 'center', justifyContent: 'center' }}{% endraw %}>
       <Text>Home Screen</Text>
       <Button
         title="Go to Details"
@@ -112,7 +112,7 @@ function HomeScreen({ navigation }) {
 Ainda é possível informar o título da tela, através da propriedade `options` do componente `Stack.Screen`. Essa alteração pode ser feita no arquivo `App.js`:
 
 ```js
-<Stack.Screen name="Details" component={DetailsScreen} options={{ title: 'Detalhes' }} />
+<Stack.Screen name="Details" component={DetailsScreen} options={% raw %}{{ title: 'Detalhes' }} {% endraw %}/>
 ```
 
 Por fim, o código final do arquivo `App.js` ficará da seguinte forma:
@@ -124,7 +124,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={% raw %}{{ flex: 1, alignItems: 'center', justifyContent: 'center' }} {% endraw %}>
       <Text>Tela principal</Text>
       <Button
         title="Ip para Detalhes"
@@ -136,7 +136,7 @@ function HomeScreen({ navigation }) {
 
 function DetailsScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={% raw %}{{ flex: 1, alignItems: 'center', justifyContent: 'center' }}{% endraw %}>
       <Text>Tela com detalhes</Text>
     </View>
   );
@@ -152,7 +152,7 @@ export default function App() {
         <Stack.Screen
           name="Details"
           component={DetailsScreen}
-          options={{ title: 'Detalhes' }}
+          options={% raw %}{{ title: 'Detalhes' }}{% endraw %}
         />
       </Stack.Navigator>
     </NavigationContainer>
