@@ -26,7 +26,7 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
   2.5. [Exercícios](recursos/exercicios.html))  
 
 3. [Aula 3 - Navigation e Routing](navegacao/intro.md)  
-  3.1. Stack Navigation(navegacao/stack.html)  
+  3.1. [Stack Navigation](navegacao/stack.html)  
   3.2. Drawer Navigation  
   3.3. Bottom Tab Navigation  
   3.4. Exercícios  
