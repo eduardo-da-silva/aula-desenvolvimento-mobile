@@ -25,50 +25,50 @@ export default function Routes() {
   return (
     <NavigationContainer>
       <BottomTab.Navigator 
-        screenOptions={{
+        screenOptions={% raw %}{{
           tabBarActiveTintColor: 'red',
           tabBarInactiveTintColor: 'black',
-        }}
+        }}{% endraw %}
       >
         <BottomTab.Screen
           name="Home"
           component={Home}
-          options={{
+          options={% raw %}{{
             tabBarLabel: 'Home',
             tabBarIcon: ({ color }) => (
               <MaterialIcons name="home" color={color} size={26} />
             ),
-          }}
+          }}{% endraw %}
         />
         <BottomTab.Screen
           name="Busca"
           component={Busca}
-          options={{
+          options={% raw %}{{
             tabBarLabel: 'Busca',
             tabBarIcon: ({ color }) => (
               <MaterialIcons name="search" color={color} size={26} />
             ),
-          }}
+          }}{% endraw %}
         />
         <BottomTab.Screen
           name="Pedidos"
           component={Pedidos}
-          options={{
+          options={% raw %}{{
             tabBarLabel: 'Pedidos',
             tabBarIcon: ({ color }) => (
               <MaterialIcons name="assignment" color={color} size={26} />
             ),
-          }}
+          }}{% endraw %}
         />
         <BottomTab.Screen
           name="Perfil"
           component={Perfil}
-          options={{
+          options={% raw %}{{
             tabBarLabel: 'Perfil',
             tabBarIcon: ({ color }) => (
               <MaterialIcons name="person" color={color} size={26} />
             ),
-          }}
+          }}{% endraw %}
         />
       </BottomTab.Navigator>
     </NavigationContainer>
