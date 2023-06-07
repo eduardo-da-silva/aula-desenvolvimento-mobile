@@ -31,13 +31,13 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
   3.3. Bottom Tab Navigation  
   3.4. Exercícios  
 
-4. Consumindo uma API e persistindo dados
-  4.1. Consumindo uma API com Axios
-  4.2. Storage com AsyncStorage
-  4.3. Exercícios
+4. Consumindo uma API e persistindo dados  
+  4.1. Consumindo uma API com Axios  
+  4.2. Storage com AsyncStorage  
+  4.3. Exercícios  
 
-5. Persistindo dados
-  5.1. AsyncStorage
-  5.2. Exercícios
+5. Persistindo dados  
+  5.1. AsyncStorage  
+  5.2. Exercícios  
 
 6. [Criando um clone do IFood](ifood/intro.md)
