@@ -4,8 +4,8 @@ description: Criando um clone do IFood
 permalink: /ifood
 ---
 # Índice da aula
-<!-- 1. [Criando um aplicação React Native](intro/criar-aplicacao-react-native.html)  
-2. [Componentes](intro/componentes.html)  
+1. [Navegação inicial](ifood/navegacao-inicial.html)  
+<!-- 2. [Componentes](intro/componentes.html)  
 3. [Interpolação de lista](intro/interpolacao-lista.html)  
 4. [Exercícios](intro/exercicios.html)   -->
 
