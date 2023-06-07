@@ -40,4 +40,5 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
   5.1. AsyncStorage  
   5.2. Exercícios  
 
-6. [Criando um clone do IFood](ifood/intro.md)
+6. [Criando um clone do IFood](ifood/intro.md)  
+  6.1. [Navegação Inicial](ifood/navegacao-inicial.html)  
