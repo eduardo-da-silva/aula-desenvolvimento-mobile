@@ -5,6 +5,7 @@ permalink: /ifood
 ---
 # Índice da aula
 1. [Navegação inicial](ifood/navegacao-inicial.html)  
+2. [Perfil](ifood/perfil.html)    
 <!-- 2. [Componentes](intro/componentes.html)  
 3. [Interpolação de lista](intro/interpolacao-lista.html)  
 4. [Exercícios](intro/exercicios.html)   -->

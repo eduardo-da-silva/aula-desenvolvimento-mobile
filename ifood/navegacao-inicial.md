@@ -131,4 +131,4 @@ O `Fragment` é um componente que permite renderizar vários componentes sem a n
 
 
 
-<span style="display: flex; justify-content: space-between;"><span>>[&lt; Introdução](intro.html "Voltar")</span> <span>[Exercícios &gt;](exercicios.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>>[&lt; Introdução](intro.html "Voltar")</span> <span>[Perfil &gt;](perfil.html "Próximo")</span></span>
