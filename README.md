@@ -10,7 +10,7 @@ Essas são notas de aula para o uso nas disciplinas de Desenvolvimento para Disp
 Esse material ainda está em construção e o seu conteúdo é melhor absorvido durante as atividades realizadas em sala de aula.
 ## Sumário
 
-0. [Aula 0 - Configuração do ambiente de desenvolvimento](ambiente/intro.md)
+[Aula 0 - Configuração do ambiente de desenvolvimento](ambiente/intro.md)
 
 1. [Aula 1 - Conhecendo o React Native](intro/intro.md)  
   1.1. [Criando um aplicativo React Native](intro/criar-aplicacao-react-native.html)  
@@ -42,3 +42,4 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
 
 6. [Criando um clone do IFood](ifood/intro.md)  
   6.1. [Navegação Inicial](ifood/navegacao-inicial.html)  
+  6.2. [Perfil](ifood/perfil.html)  
