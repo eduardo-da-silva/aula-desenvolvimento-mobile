@@ -197,7 +197,7 @@ Embora tenhamos definida apenas a navegação para a rota `Pagamentos`, você po
 ## Tela de Pagamentos
 
 A tela de Pagamentos ainda será bem simples, apenas para demonstrar a navegação entre as telas.
-Vamos criar o arquivo `src/pages/Pagamentos/index.js` com o seguinte conteúdo:
+Vamos criar o arquivo `src/screens/Pagamentos/index.js` com o seguinte conteúdo:
 
 ```jsx
 import React from 'react';
@@ -228,13 +228,15 @@ Depois de ajustar as telas, precisamos ajustar o arquivo de rotas para que as te
 * Adicionar a importação das telas de Perfil e Pagamentos:
 
 ```jsx
-import Perfil from './pages/Perfil';
-import Pagamentos from './pages/Pagamentos';
+import Perfil from './screens/Perfil';
+import Pagamentos from './screens/Pagamentos';
 ```
 
 * Criar um stack navigator para as telas de Perfil e Pagamentos:
 
 ```jsx
+import { createStackNavigator } from '@react-navigation/stack';
+
 const PerfilStack = createStackNavigator();
 
 function PerfilRoutes() {
