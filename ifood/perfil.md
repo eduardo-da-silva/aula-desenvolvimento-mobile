@@ -270,4 +270,4 @@ Note que a alteração acima foi feita para que a tela de Perfil seja exibida co
 
 
 
-<span style="display: flex; justify-content: space-between;"><span>>[&lt; Navegação inicial](navegacao-inicial.html "Voltar")</span> <span>[Exercícios &gt;](exercicios.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>>[&lt; Navegação inicial](navegacao-inicial.html "Voltar")</span> <span>[Home &gt;](home.html "Próximo")</span></span>

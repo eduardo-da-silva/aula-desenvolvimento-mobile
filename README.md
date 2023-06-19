@@ -43,3 +43,4 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
 6. [Criando um clone do IFood](ifood/intro.md)  
   6.1. [Navegação Inicial](ifood/navegacao-inicial.html)  
   6.2. [Perfil](ifood/perfil.html)  
+  6.3. [Home](ifood/home.html)  
