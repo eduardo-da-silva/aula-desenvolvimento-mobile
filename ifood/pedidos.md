@@ -7,7 +7,7 @@ permalink: /ifood/pedidos
 
 Nessa etapa, vamos contruir a tela de pedidos.
 
-## Instalando as dependencias
+## Instalando as dependências
 
 Para iniciar, vamos instalar as dependências:
 
@@ -89,7 +89,7 @@ function PedidosRouter() {
       <Tab.Screen
         name="PedidosAnteriores"
         component={PedidosAnteriores}
-        options={{ tabBarLabel: 'Pedidos Anteriores' }}
+        options={% raw %}{{ tabBarLabel: 'Pedidos Anteriores' }}{% endraw %}
       />
     </Tab.Navigator>
   );
@@ -102,12 +102,12 @@ No mesmo arquivo `src/routes.js`, vamos alterar o componente `BottomTab.Navigato
  <BottomTab.Screen
   name="Pedidos"
   component={PedidosRouter}
-  options={{
+  options={% raw %}{{
     tabBarLabel: 'Pedidos',
     tabBarIcon: ({ color }) => (
       <MaterialIcons name="assignment" color={color} size={26} />
     ),
-  }}
+  }}{% endraw %}
 />
 ```
 <span style="display: flex; justify-content: space-between;"><span>>[&lt; Home](home.html "Voltar")</span> <span>[Exercícios &gt;](exercicios.html "Próximo")</span></span>
