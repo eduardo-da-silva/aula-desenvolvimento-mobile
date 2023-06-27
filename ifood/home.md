@@ -935,4 +935,4 @@ const styles = StyleSheet.create({
 });
 ```
 
-<span style="display: flex; justify-content: space-between;"><span>>[&lt; Perfil](perfil.html "Voltar")</span> <span>[Exercícios &gt;](exercicios.html "Próximo")</span></span>
+<span style="display: flex; justify-content: space-between;"><span>>[&lt; Perfil](perfil.html "Voltar")</span> <span>[Pedidos &gt;](pedidos.html "Próximo")</span></span>

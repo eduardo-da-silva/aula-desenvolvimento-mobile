@@ -44,3 +44,4 @@ Esse material ainda está em construção e o seu conteúdo é melhor absorvido 
   6.1. [Navegação Inicial](ifood/navegacao-inicial.html)  
   6.2. [Perfil](ifood/perfil.html)  
   6.3. [Home](ifood/home.html)  
+  6.4. [Pedidos](ifood/pedidos.html)  
