@@ -294,7 +294,7 @@ Vamos ajustar as rotas para que a tela de pedidos seja a tela inicial do nosso a
 import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 
@@ -309,7 +309,7 @@ import Pagamentos from './screens/Pagamentos';
 import Item from './screens/Item';
 
 const BottomTab = createBottomTabNavigator();
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 const Tab = createMaterialTopTabNavigator();
 
 function HomeRoutes() {
