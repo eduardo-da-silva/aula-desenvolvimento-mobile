@@ -897,7 +897,7 @@ const styles = StyleSheet.create({
 
 Agora que temos os componentes criados, vamos ajustar a Home para que ela fique com a cara do iFood.
 
-Abra o arquivo `screents/Home/index.js` e adicione o código abaixo:
+Abra o arquivo `screens/Home/index.js` e adicione o código abaixo:
 
 ```javascript
 import React from 'react';
