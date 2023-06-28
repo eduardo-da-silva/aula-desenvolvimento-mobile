@@ -96,47 +96,6 @@ const styles = StyleSheet.create({
 });
 ```
 
-## Instalando as dependências
-
-Para iniciar, vamos instalar as dependências:
-
-```bash
-npm install @react-navigation/material-top-tabs react-native-tab-view
-```
-
-# Criando as screens
-
-## Editar o arquivo de pedidos
-
-Vamos editar o arquivo `src/screens/Pedidos/index.js` com o código abaixo:
-
-```javascript
-import React from 'react';
-import { View, Image, Text, StyleSheet } from 'react-native';
-
-export default function Pedidos() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.aviso}>Você ainda não fez nenhum pedido</Text>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  aviso: {
-    marginTop: 25,
-    fontSize: 18,
-    color: '#333',
-  },
-});
-```
-
 ## Editar o componente de Ofertas
 
 Vamos agora editar o arquivo que lista as ofertas, para que ele possa navegar para a tela de detalhes da oferta. Para isso, vamos editar o arquivo `src/components/Home/Ofertas.js` com o código abaixo:
