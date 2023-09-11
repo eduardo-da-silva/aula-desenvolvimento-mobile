@@ -20,7 +20,7 @@ npm install -g json-server
 Para este exercício, foi criado um container Docker. Para acessar o container, execute o comando abaixo:
 
 ```bash
-docker run -p 19003:19003 eduardosilvasc/django_clone_ifood:latest
+sudo docker run -p 19003:19003 eduardosilvasc/django_clone_ifood:latest
 ```
 
 Importante: O container deve estar sempre em execução. Então, não feche o terminal que você executou o comando acima. 
