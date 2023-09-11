@@ -19,7 +19,7 @@ export default function Item({ route, navigation }) {
   return (
     <ScrollView showsVerticalScrollIndicator={true} style={styles.container}>
       <View style={styles.detalhe}></View>
-      <Image style={styles.itemImage} source={%raw %}{{ uri: item.offer_url }} {% endraw %} />
+      <Image style={styles.itemImage} source={%raw %}{{ uri: item.image }} {% endraw %} />
       <Text style={styles.itemTitulo}>{item.title}</Text>
       <Text style={styles.itemIngredientes}>{item.ingredients}</Text>
       <View style={styles.info}>
@@ -122,7 +122,7 @@ export default function Ofertas({ navigation }) {
       const response = await api.get('offers');
       const data = response.data.map((offer) => ({
         id: offer.id,
-        offer_url: offer.offer_url,
+        image: offer.image,
         title: offer.title,
         newPrice: formatNumber(offer.newPrice),
         price: formatNumber(offer.price),
@@ -158,7 +158,7 @@ export default function Ofertas({ navigation }) {
             key={oferta.id}
             onPress={() => navigation.navigate('Item', { item: oferta })}
           >
-            <Image source={% raw %} {{ uri: oferta.offer_url }} {% endraw %} style={styles.imagem} />
+            <Image source={% raw %} {{ uri: oferta.image }} {% endraw %} style={styles.imagem} />
             <View style={styles.info}>
               <Text numberOfLines={2} style={styles.titulo}>
                 {oferta.title}
