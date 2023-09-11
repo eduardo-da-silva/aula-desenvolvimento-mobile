@@ -5,15 +5,8 @@ permalink: /ifood/home
 
 # Tela Home
 
-Nessa etapa, vamos construir a tela inicial do aplicativo. Mas, precisamos criar um servidor para que possamos consumir os dados. Para isso, vamos utilizar o [json-server](https://github.com/typicode/json-server), com dados de exemplo.
+Nessa etapa, vamos construir a tela inicial do aplicativo. Mas, precisamos criar um servidor para que possamos consumir os dados. Para isso, vamos utilizar um container docker, com dados de exemplo.
 
-## Instalando o json-server
-
-Para instalar o json-server, vamos executar o seguinte comando:
-
-```bash
-npm install -g json-server
-```
 
 ### Acessando um servidor remoto
 
