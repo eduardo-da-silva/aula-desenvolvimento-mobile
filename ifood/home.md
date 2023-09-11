@@ -218,6 +218,9 @@ const styles = StyleSheet.create({
 });
 ```
 
+Não esqueça de baixar um arquivo chamado `discount-coupon.png` e colocar na pasta `src/assets`.
+
+
 ## Componente de Sugestões
 
 * A partir de agora, faremos uso de dados que estão no servidor `json-server`
