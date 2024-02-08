@@ -25,3 +25,5 @@ Esse curso é parte de uma trilha de aprendizado. Siga os links abaixo para aces
 Bons estudos!
 
 ## Sumário
+
+1. [Aula 1 - Configuração do ambiente de desenvolvimento](ambiente/intro.md)
