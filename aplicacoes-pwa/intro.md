@@ -8,6 +8,9 @@ permalink: /aplicacoes-pwa/
 
 1. [O que é um PWA?](#o-que-é-um-pwa)
 2. [PWA com Vite e VueJS](pwa-com-vite-e-vuejs.html)
+3. [Criando uma primeira aplicação Vue](criando-aplicacao-vue.html)
+4. [Configuração do VueJs com PWA](configuracao-vue-com-pwa.html)
+5. [Deploy da aplicação](deploy-aplicacao.html)
 
 # O que é um PWA?
 

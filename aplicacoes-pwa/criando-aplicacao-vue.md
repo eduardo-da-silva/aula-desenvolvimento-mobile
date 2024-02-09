@@ -1,6 +1,6 @@
 ---
-title: 'Criando a aplicação PWA'
-permalink: /aplicacoes-pwa/criando-aplicacao-pwa
+title: 'Criando a aplicação Vue'
+permalink: /aplicacoes-pwa/criando-aplicacao-vue
 ---
 
 # Criando a aplicação VueJS
@@ -53,3 +53,5 @@ O primeiro comando instala as dependências do projeto. O segundo comando execut
 No decorrer das aulas, sugiro que você mantenha sempre atualizado o seu projeto em um repositorio Git. Isso facilitará a compreensão das alterações realizadas em cada etapa, e também permitirá que você possa voltar a um estado anterior do projeto, caso necessário.
 
 Também, estamos considerando que você já tem a familiaridade com o VueJS, como estudado em outros cursos. As notas de aula do curso de Desenvolvimento Web com VueJS está [aqui](https://eduardo-da-silva.github.io/aula-desenvolvimento-web/)
+
+<span style="display: flex; justify-content: space-between;"><span>[&lt; PWA com Vite e Vuejs](pwa-com-vite-e-vuejs.html 'Voltar')</span> <span>[Configuração do VueJs com PWA &gt;](configuracao-vue-com-pws.html 'Próximo')</span></span>
