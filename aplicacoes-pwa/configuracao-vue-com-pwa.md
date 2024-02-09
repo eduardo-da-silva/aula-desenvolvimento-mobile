@@ -99,7 +99,7 @@ Agora, vamos ajustar o arquivo `index.html`. Abra este arquivo e adicione a segu
 
 Neste arquivo, você também pode alterar a `tag` `title` para o nome da aplicação, e a `tag` `meta` `description` para a descrição da aplicação. Você também poderia adicionar uma fonte personalizada, ou mesmo alterar o estilo da aplicação.
 
-# Componente de instalação
+<!-- # Componente de instalação
 
 Agora, vamos criar um componente que será exibido quando a aplicação for instalada. Para isso, crie um arquivo chamado `InstallApp.vue` na pasta `src/components` com o seguinte conteúdo:
 
@@ -121,9 +121,9 @@ Agora, vamos criar um componente que será exibido quando a aplicação for inst
 </template>
 ```
 
-Neste arquivo, estamos importando o `useRegisterSW` do `virtual:pwa-register/vue`. Este _hook_ nos permite verificar se há uma atualização disponível, e atualizar o _Service Worker_ quando houver. Também estamos verificando se há uma atualização disponível, e se houver, exibimos um botão para atualizar a aplicação.
+Neste arquivo, estamos importando o `useRegisterSW` do `virtual:pwa-register/vue`. Este _hook_ nos permite verificar se há uma atualização disponível, e atualizar o _Service Worker_ quando houver. Também estamos verificando se há uma atualização disponível, e se houver, exibimos um botão para atualizar a aplicação. -->
 
-# Registro do componente de instalação
+<!-- # Registro do componente de instalação
 
 Agora, vamos registrar o componente de instalação na aplicação. Para isso, abra o arquivo `App.vue` e adicione o seguinte conteúdo:
 
@@ -138,7 +138,7 @@ Agora, vamos registrar o componente de instalação na aplicação. Para isso, a
 </template>
 ```
 
-_Note que estamos apenas editando o arquivo com algumas inserções._
+_Note que estamos apenas editando o arquivo com algumas inserções._ -->
 
 # Testando a aplicação
 
