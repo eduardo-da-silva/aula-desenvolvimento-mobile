@@ -7,7 +7,7 @@ permalink: /aplicacoes-pwa/
 # Índice da aula
 
 1. [O que é um PWA?](#o-que-é-um-pwa)
-2. [PWA com Vite e VueJS](aplicacoes-pwa/pwa-com-vite-e-vuejs.html)
+2. [PWA com Vite e VueJS](pwa-com-vite-e-vuejs.html)
 
 # O que é um PWA?
 
@@ -38,4 +38,4 @@ Por outro lado, PWAs têm algumas desvantagens, tais como:
 
 Contudo, as vantagens de PWAs superam as desvantagens, e PWAs são uma excelente opção para empresas que desejam oferecer uma experiência de usuário semelhante a de aplicativos nativos, mas sem os custos e limitações associados a eles. Ademais, a maioria das limitações não são problemas para a maioria dos aplicativos.
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[PWA com Vite e VueJS &gt;](aplicacoes-pwa/pwa-com-vite-e-vuejs.html 'Próximo')</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[PWA com Vite e VueJS &gt;](pwa-com-vite-e-vuejs.html 'Próximo')</span></span>
