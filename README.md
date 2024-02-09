@@ -27,3 +27,4 @@ Bons estudos!
 ## Sumário
 
 1. [Aula 1 - Configuração do ambiente de desenvolvimento](ambiente/intro.md)
+2. [Aula 2 - O conceito de PWA](aplicacoes-pwa/intro.md)
