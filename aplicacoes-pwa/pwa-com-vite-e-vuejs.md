@@ -9,7 +9,7 @@ O Vite é um _build tool_ para aplicações web modernas. Ele é rápido, fácil
 
 Já estamos familiarizados com o VueJS, um _framework_ progressivo para a construção de interfaces de usuário. O VueJS é uma ferramenta que permite a criação de interfaces de usuário interativas e dinâmicas, com a utilização de componentes reutilizáveis. Também, desde o lançamento da versão 3, é comum o uso do VueJS integrado com o Vite.
 
-Para a criação de um PWA, vamos desenvolver uma aplicação web com VueJS e Vite. A aplicação será um _site_ de notícias, que permitirá a leitura de notícias, a busca por notícias e a leitura de notícias relacionadas. A aplicação será responsiva e terá um _layout_ agradável, com _cards_ para a exibição das notícias.
+Para a criação de um PWA, vamos desenvolver uma aplicação web com VueJS e Vite. A aplicação utilizará a API REST pública https://fakestoreapi.com/. Nesta aplicação será possível visualizar uma lista de produtos, visualizar detalhes de um produto, gerenciar produtos em um carrinho.
 
 Tal aplicação será desenvolvida em etapas, com a utilização de _commits_ para registrar as alterações realizadas. A cada etapa, será possível acompanhar o desenvolvimento da aplicação, com a visualização das alterações realizadas.
 
