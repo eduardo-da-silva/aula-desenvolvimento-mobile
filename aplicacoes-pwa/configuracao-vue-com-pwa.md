@@ -1,6 +1,6 @@
 ---
 title: 'Criando a aplicação Vue'
-permalink: /aplicacoes-pwa/criando-aplicacao-vue
+permalink: /aplicacoes-pwa/configuracao-vue-com-pwa
 ---
 
 # Instalação dos pré-requisitos
