@@ -56,16 +56,32 @@ import ListagemProdutos from '@/components/ListagemProdutos.vue';
 </script>
 
 <template>
-  <div>
-    <ListagemProdutos />
-  </div>
+  <ListagemProdutos />
 </template>
 ```
 
-# Limpando o projeto
+# Limpando o projeto e configuração de CSS
 
 Agora que temos a listagem de produtos, podemos remover os componentes `HelloWorld.vue`, `TheWelcome.vue` e `WelcomeItem.vue` que estão na pasta `src/components/`. Também pode ser removida a pasta `src/components/icons`.
 
-# Criando
+Em seguida, vamos fazer uma configuração básica do CSS. Para isso, abra o arquivo `src/styles/index.css` e adicione o seguinte conteúdo:
+
+```css
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fdfdfd;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+}
+h1 {
+  color: #e74c3c;
+  margin-bottom: 0.5rem;
+}
+```
 
 <span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[??? &gt;](???.html 'Próximo')</span></span>
