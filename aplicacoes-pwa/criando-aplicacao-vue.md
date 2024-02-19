@@ -54,4 +54,4 @@ No decorrer das aulas, sugiro que você mantenha sempre atualizado o seu projeto
 
 Também, estamos considerando que você já tem a familiaridade com o VueJS, como estudado em outros cursos. As notas de aula do curso de Desenvolvimento Web com VueJS está [aqui](https://eduardo-da-silva.github.io/aula-desenvolvimento-web/)
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; PWA com Vite e Vuejs](pwa-com-vite-e-vuejs.html 'Voltar')</span> <span>[Configuração do VueJs com PWA &gt;](configuracao-vue-com-pws.html 'Próximo')</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; PWA com Vite e Vuejs](pwa-com-vite-e-vuejs.html 'Voltar')</span> <span>[Configuração do VueJs com PWA &gt;](configuracao-vue-com-pwa.html 'Próximo')</span></span>

@@ -27,4 +27,9 @@ Bons estudos!
 ## Sumário
 
 1. [Aula 1 - Configuração do ambiente de desenvolvimento](ambiente/intro.md)
-2. [Aula 2 - O conceito de PWA](aplicacoes-pwa/intro.md)
+2. [Aula 2 - O conceito de PWA](aplicacoes-pwa/intro.md)  
+   2.1 [PWA com Vite e VueJS](aplicacoes-pwa/pwa-com-vite-e-vuejs.md)  
+   2.2 [Criando uma primeira aplicação Vue](aplicacoes-pwa/criando-aplicacao-vue.md)  
+   2.3 [Configuração do VueJs com PWA](aplicacoes-pwa/configuracao-vue-com-pwa.md)  
+   2.4 [Deploy da aplicação](aplicacoes-pwa/deploy-aplicacao.md)
+3. [Aula 3 - Listagem de produtos](listagem-produtos/intro.md)

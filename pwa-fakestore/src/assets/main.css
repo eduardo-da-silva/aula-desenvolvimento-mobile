@@ -9,25 +9,6 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
 }
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 0.5rem;
-  text-align: center;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-ul {
-  list-style: none;
-  display: flex;
-}
-
-li {
-  margin-right: 1rem;
-}
 h1 {
   color: #e74c3c;
   margin-bottom: 0.5rem;

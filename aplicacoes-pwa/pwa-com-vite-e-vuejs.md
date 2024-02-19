@@ -27,4 +27,4 @@ Também, vamos hospedar a aplicação em um servidor, para que ela possa ser ace
 
 Nestas primeiras aulas, vamos criar uma aplicação padrão VueJS, sem modificações para que ela se torne um PWA. Nas próximas aulas, vamos adicionar as configurações necessárias para que a aplicação se torne um PWA.
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; O conceito de PWA](. 'Voltar')</span> <span>[Criando uma primeira aplicação PWA &gt;](criando-aplicacao-pwa.html 'Próximo')</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; O conceito de PWA](. 'Voltar')</span> <span>[Criando uma primeira aplicação Vue com PWA &gt;](criando-aplicacao-vue.html 'Próximo')</span></span>

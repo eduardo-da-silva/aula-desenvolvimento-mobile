@@ -3,7 +3,7 @@ import ListagemProdutos from '@/components/ListagemProdutos.vue';
 </script>
 
 <template>
-  <div>
-    <ListagemProdutos />
-  </div>
+  <!-- <div> -->
+  <ListagemProdutos />
+  <!-- </div> -->
 </template>
