@@ -1,6 +1,6 @@
 ---
 title: 'Deploy da aplicação'
-permalink: /aplicacoes-pwa/deploy-aplicacao
+permalink: /aplicacoes-pwa/deploy-da-aplicacao
 ---
 
 # Deploy da aplicação
