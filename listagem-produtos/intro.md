@@ -64,7 +64,7 @@ import ListagemProdutos from '@/components/ListagemProdutos.vue';
 
 Agora que temos a listagem de produtos, podemos remover os componentes `HelloWorld.vue`, `TheWelcome.vue` e `WelcomeItem.vue` que estão na pasta `src/components/`. Também pode ser removida a pasta `src/components/icons`.
 
-Em seguida, vamos fazer uma configuração básica do CSS. Para isso, abra o arquivo `src/styles/index.css` e adicione o seguinte conteúdo:
+Em seguida, vamos fazer uma configuração básica do CSS. Para isso, abra o arquivo `src/assets/main.css` e adicione o seguinte conteúdo:
 
 ```css
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
