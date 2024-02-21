@@ -37,9 +37,9 @@ onMounted(async () => {
   <div>
     <h1>Produtos</h1>
     <div v-for="produto in produtos" :key="produto.id">
-      <h2>{{ produto.title }}</h2>
-      <p>{{ produto.description }}</p>
-      <p>{{ produto.price }}</p>
+      <h2>{% raw %}{{ produto.title }}{% endraw %}</h2>
+      <p>{% raw %}{{ produto.description }}{% endraw %}</p>
+      <p>{% raw %}{{ produto.price }}{% endraw %}</p>
       <img :src="produto.image" :alt="produto.title" />
     </div>
   </div>
