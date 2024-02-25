@@ -6,5 +6,4 @@ import HeaderComp from '@/components/HeaderComp.vue';
 <template>
   <HeaderComp />
   <ListagemProdutos />
-  <!-- </div> -->
 </template>

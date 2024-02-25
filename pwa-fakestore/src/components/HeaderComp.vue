@@ -10,25 +10,23 @@ const menuAberto = ref(false);
 
 <template>
   <header>
-    <div class="header--container">
-      <div class="header--logo">
-        <img src="@/assets/logoFakeStore.png" alt="Logo" />
-        <h1>FakeStore</h1>
-      </div>
-      <nav class="header--nav">
-        <ul :class="menuAberto ? 'menu' : ''">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Eletrônicos</a></li>
-          <li><a href="#">Jóias</a></li>
-          <li><a href="#">Masculino</a></li>
-          <li><a href="#">Feminino</a></li>
-        </ul>
-      </nav>
-      <div class="header--icons">
-        <Account />
-        <CartPlus />
-        <Menu @click="menuAberto = !menuAberto" class="menu-hamburguer" />
-      </div>
+    <div class="header--logo">
+      <img src="@/assets/logoFakeStore.png" alt="Logo" />
+      <h1>FakeStore</h1>
+    </div>
+    <nav>
+      <ul :class="menuAberto ? 'menu' : ''">
+        <li>Home</li>
+        <li>Eletrônicos</li>
+        <li>Jóias</li>
+        <li>Masculino</li>
+        <li>Feminino</li>
+      </ul>
+    </nav>
+    <div class="header--icons">
+      <Account />
+      <CartPlus />
+      <Menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
     </div>
   </header>
 </template>
@@ -37,14 +35,12 @@ const menuAberto = ref(false);
 header {
   background: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  padding: 1rem 0;
-}
-.header--container {
+  padding: 0.2rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
 }
+
 .header--logo {
   display: flex;
   align-items: center;
@@ -54,11 +50,11 @@ header {
   height: 3rem;
   margin-right: 0.5rem;
 }
-.header--nav ul {
+nav ul {
   display: flex;
   gap: 1rem;
 }
-.header--nav li {
+nav li {
   list-style: none;
 }
 
@@ -66,40 +62,19 @@ header {
   display: flex;
   gap: 1rem;
 }
-.header--user img {
-  width: 2rem;
-  height: 2rem;
-}
-.header--cart img {
-  width: 2rem;
-  height: 2rem;
-}
-
-.menu-hamburguer {
+.menu-hamburger {
   display: none;
 }
 
 @media (max-width: 768px) {
-  .header--nav ul {
+  nav ul {
     display: none;
   }
-  .header--container {
-    justify-content: space-between;
-  }
-  .header--container > div {
-    display: flex;
-    align-items: center;
-  }
-  .header--container > div img {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .menu-hamburguer {
+  .menu-hamburger {
     display: block;
   }
 
-  .header--nav .menu {
+  nav .menu {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -110,18 +85,9 @@ header {
     text-align: right;
     padding: 10px 16px;
   }
-  .header--nav .menu li {
+  nav .menu li {
     display: block;
     margin-top: 12px;
-    color: #000;
-    font-family: inherit;
-    font-size: 1.5rem;
-    text-decoration: none;
-  }
-
-  .header--nav .menu li a {
-    color: #000;
-    text-decoration: none;
   }
 }
 </style>
