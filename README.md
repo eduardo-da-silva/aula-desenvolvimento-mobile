@@ -34,4 +34,5 @@ Bons estudos!
    2.4 [Deploy da aplicação](aplicacoes-pwa/deploy-aplicacao.md)
 3. [Aula 3 - A API FakeStore](listagem-produtos/intro.md)  
    3.1 [Listagem de produtos](listagem-produtos/listagem-de-produtos.md)  
-   3.2 [Estilização básica](listagem-produtos/estilizacao-basica.md)
+   3.2 [Estilização básica](listagem-produtos/estilizacao-basica.md)  
+   3.3 [Menu Superior Responsivo](listagem-produtos/menu-superior-responsivo.md)

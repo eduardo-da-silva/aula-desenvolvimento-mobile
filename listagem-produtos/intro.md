@@ -4,6 +4,13 @@ description: 'Conhecendo API Fake Store e instalando o Axios'
 permalink: /listagem-produtos/
 ---
 
+# Índice da aula
+
+1. [Entendendo a API Fake Store](#entendendo-a-api-fake-store)
+2. [Listagem de produtos](listagem-de-produtos.html)
+3. [Estilização básica](estilizacao-basica.html)
+4. [Menu Superior Responsivo](menu-superior-responsivo.html)
+
 # Entendendo a API Fake Store
 
 A API Fake Store é uma API que simula uma loja virtual. Ela possui endpoints para listar produtos, categorias, carrinho de compras, usuários, entre outros. Para este tutorial, vamos utilizar o endpoint de listagem de produtos.
