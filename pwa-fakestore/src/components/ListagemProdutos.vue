@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-
 const produtos = ref([]);
 
 onMounted(async () => {
@@ -29,9 +28,9 @@ const formatPrice = (price) => `R$ ${price.toFixed(2).replace('.', ',')}`;
 
 <style scoped>
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -42,7 +41,7 @@ const formatPrice = (price) => `R$ ${price.toFixed(2).replace('.', ',')}`;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  width: 15rem auto;
+  width: 15rem;
   height: 25rem;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -62,5 +61,22 @@ const formatPrice = (price) => `R$ ${price.toFixed(2).replace('.', ',')}`;
   text-transform: capitalize;
   font-size: 1.1rem;
   margin-top: 0.5rem;
+}
+
+/* Smartphones */
+@media (max-width: 768px) {
+  .container {
+    gap: 0.5rem;
+  }
+  .card {
+    width: 92%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 22rem;
+  }
 }
 </style>

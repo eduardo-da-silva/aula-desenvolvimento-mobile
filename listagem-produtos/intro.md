@@ -1,12 +1,16 @@
 ---
-title: 'Listagem de produtos'
-description: 'Listagem de produtos usando a API Fake Store'
+title: 'Introdução à API Fake Store'
+description: 'Conhecendo API Fake Store e instalando o Axios'
 permalink: /listagem-produtos/
 ---
 
 # Entendendo a API Fake Store
 
 A API Fake Store é uma API que simula uma loja virtual. Ela possui endpoints para listar produtos, categorias, carrinho de compras, usuários, entre outros. Para este tutorial, vamos utilizar o endpoint de listagem de produtos.
+
+A documentação da API Fake Store pode ser encontrada [aqui](https://fakestoreapi.com/docs). Note que no menu lateral, os endpoints estão divididos em grupos: `Products`, `Cart`, `User` e `Login`. Cada grupo possui um conjunto de endpoints que podem ser utilizados. Para cada endpoint é possível ver a URL, o método HTTP, os parâmetros e o corpo da requisição, e um modelo de resposta.
+
+Sugiro que você dê uma olhada na documentação para entender melhor como a API funciona e, consequentemente, desenvolver outros recursos para a sua aplicação, diferente do que será feito neste tutorial.
 
 # Instalando o Axios
 
@@ -16,53 +20,23 @@ Para fazer requisições HTTP, vamos utilizar o Axios. Para instalá-lo, execute
 npm install axios
 ```
 
-# Listagem de produtos
+É importante ressaltar que o Axios é uma biblioteca que permite fazer requisições HTTP de forma fácil e eficiente. Ela é muito utilizada em projetos Vue.js, mas também pode ser utilizada em projetos React, Angular, entre outros.
 
-Agora que temos o Axios instalado, vamos criar uma listagem de produtos. Para isso, crie um novo arquivo chamado `ListagemProdutos.vue` na pasta `src/components` e adicione o seguinte conteúdo:
-
-```vue
-<script setup>
-import { ref, onMounted } from 'vue';
-import axios from 'axios';
-
-const produtos = ref([]);
-
-onMounted(async () => {
-  const response = await axios.get('https://fakestoreapi.com/products');
-  produtos.value = response.data;
-});
-</script>
-
-<template>
-  <div>
-    <h1>Produtos</h1>
-    <div v-for="produto in produtos" :key="produto.id">
-      <h2>{% raw %}{{ produto.title }}{% endraw %}</h2>
-      <p>{% raw %}{{ produto.description }}{% endraw %}</p>
-      <p>{% raw %}{{ produto.price }}{% endraw %}</p>
-      <img :src="produto.image" :alt="produto.title" />
-    </div>
-  </div>
-</template>
-```
-
-# Alterando a view principal
-
-Agora que temos a listagem de produtos, vamos alterar a view principal para exibir a listagem. Abra o arquivo `src/views/HomeView.vue` e altere o conteúdo para o seguinte:
-
-```vue
-<script setup>
-import ListagemProdutos from '@/components/ListagemProdutos.vue';
-</script>
-
-<template>
-  <ListagemProdutos />
-</template>
-```
+Em vez de utilizar o Axios, você pode utilizar o Fetch API, que é nativa do JavaScript, mas o Axios é amplamente utilizado e possui, de forma geral, uma API mais simples e fácil de usar.
 
 # Limpando o projeto e configuração de CSS
 
-Agora que temos a listagem de produtos, podemos remover os componentes `HelloWorld.vue`, `TheWelcome.vue` e `WelcomeItem.vue` que estão na pasta `src/components/`. Também pode ser removida a pasta `src/components/icons`.
+Antes de iniciarmos a listagem de produtos, vamos limpar o projeto. Para tal, vamos remover os componentes que não serão utilizados e fazer uma configuração básica do CSS. Inicialmente, podemos remover os componentes `HelloWorld.vue`, `TheWelcome.vue` e `WelcomeItem.vue` que estão na pasta `src/components/`. Também pode ser removida a pasta `src/components/icons`.
+
+Vamos também editar o arquivo `App.vue` para que ele fique da seguinte forma:
+
+```vue
+<template>
+  <span>Em breve</span>
+</template>
+```
+
+Note que removemos os componentes que estavam sendo importados e utilizados no arquivo `App.vue`. Também removemos o conteúdo do `template` e adicionamos um texto simples, bem como removemos os blocos `script` e o `style`.
 
 Em seguida, vamos fazer uma configuração básica do CSS. Para isso, abra o arquivo `src/assets/main.css` e adicione o seguinte conteúdo:
 
@@ -84,4 +58,4 @@ h1 {
 }
 ```
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[??? &gt;](???.html 'Próximo')</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[Listagem de produtos &gt;](listagem-de-produtos.html 'Próximo')</span></span>
