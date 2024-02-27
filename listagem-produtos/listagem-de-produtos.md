@@ -36,7 +36,7 @@ onMounted(async () => {
 
 # Alterando a view principal
 
-Agora que temos a listagem de produtos, vamos alterar a view principal para exibir a listagem. Abra o arquivo `src/views/HomeView.vue` e altere o conteúdo para o seguinte:
+Agora que temos a listagem de produtos, vamos alterar a view principal para exibir a listagem. Abra o arquivo `src/App.vue` e altere o conteúdo para o seguinte:
 
 ```vue
 <script setup>
