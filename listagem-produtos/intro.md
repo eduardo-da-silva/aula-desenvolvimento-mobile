@@ -45,7 +45,7 @@ Vamos também editar o arquivo `App.vue` para que ele fique da seguinte forma:
 
 Note que removemos os componentes que estavam sendo importados e utilizados no arquivo `App.vue`. Também removemos o conteúdo do `template` e adicionamos um texto simples, bem como removemos os blocos `script` e o `style`.
 
-Em seguida, vamos fazer uma configuração básica do CSS. Para isso, abra o arquivo `src/assets/main.css` e adicione o seguinte conteúdo:
+Em seguida, vamos fazer uma configuração básica do CSS. Para isso, abra o arquivo `src/assets/main.css` e substitua o conteúdo pelo seguinte:
 
 ```css
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
