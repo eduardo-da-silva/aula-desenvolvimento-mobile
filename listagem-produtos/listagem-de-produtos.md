@@ -50,7 +50,7 @@ import ListagemProdutos from '@/components/ListagemProdutos.vue';
 
 # Testando a aplicação
 
-Agora que fizemos todas as alterações, vamos testar a aplicação. Execute o comando `npm run dev` e acesse a URL `http://localhost:8080/`. Você deverá ver a listagem de produtos da API Fake Store.
+Agora que fizemos todas as alterações, vamos testar a aplicação. Execute o comando `npm run dev` e acesse a URL `http://localhost:5173/` ou o endereço que você está rodando o seu ambiente de desenvolvimento. Você deverá ver a listagem de produtos da API Fake Store.
 
 Você também pode visualizar em um dispositivo móvel, ou fazer o deploy para a web, para ver como a aplicação se comporta em diferentes dispositivos. Para fazer o deploy, você pode seguir os passos já estudados nas aulas anteriores.
 

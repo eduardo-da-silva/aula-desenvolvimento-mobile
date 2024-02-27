@@ -160,7 +160,7 @@ import MenuSuperior from '@/components/MenuSuperior.vue';
 
 Incluímos o componente `MenuSuperior` antes do componente `ListagemProdutos`. Isso fará com que o cabeçalho seja exibido antes da listagem de produtos.
 
-Agora que fizemos todas as alterações, vamos testar a aplicação. Execute o comando `npm run dev` e acesse a URL `http://localhost:8080/`. Você deverá ver o cabeçalho com o menu responsivo e a listagem de produtos da API Fake Store.
+Agora que fizemos todas as alterações, vamos testar a aplicação. Execute o comando `npm run dev` e acesse a URL `http://localhost:5173/` ou o endereço que você está rodando o seu ambiente de desenvolvimento. Você deverá ver o cabeçalho com o menu responsivo e a listagem de produtos da API Fake Store.
 
 <span style="display: flex; justify-content: space-between;"><span>[&lt; Estilização Básica](estilizacao-basica.html 'Início')</span> <span>[Sumário &gt;](../ 'Próximo')</span></span>
 
