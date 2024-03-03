@@ -8,6 +8,9 @@ permalink: /composables-responsividade/
 
 1. [Conceitos de responsividade](#conceitos-de-responsividade)
 2. [Criando o primeiro composable](criando-um-composable.html)
+3. [Uso nos componentes](uso-nos-componentes.html)
+4. [Desafio](desafio.html)
+5. [Correção do desafio](correcao.html)
 
 # Conceitos de responsividade
 

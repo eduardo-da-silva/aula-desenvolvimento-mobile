@@ -36,3 +36,8 @@ Bons estudos!
    3.1 [Listagem de produtos](listagem-produtos/listagem-de-produtos.md)  
    3.2 [Estilização básica](listagem-produtos/estilizacao-basica.md)  
    3.3 [Menu Superior Responsivo](listagem-produtos/menu-superior-responsivo.md)
+4. [Aula 4 - Composables](composables-responsividade/intro.md)  
+   4.1 [Criando o primeiro composable](composables-responsividade/criando-um-composable.md)  
+   4.2 [Uso nos componentes](composables-responsividade/uso-nos-componentes.md)  
+   4.3 [Desafio](composables-responsividade/desafio.md)  
+   4.4 [Correção do desafio](composables-responsividade/correcao.md)
