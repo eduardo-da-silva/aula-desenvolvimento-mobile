@@ -6,9 +6,9 @@ permalink: /componentes-dinamicos/editando-homeview
 
 # Editando o HomeView
 
-Vamos agora editar o arquivo `src/pages/HomeView.vue` para que ele renderize o componente de Listagem de Produtos que já fizemos anteriormente. Nos exemplos que fizemos no tutorial, embora tenhamos instalado o vue-router, não estamos aplicando o seu uso. O objetivo é fazer, nesta etapa, esta integração.
+Vamos agora editar o arquivo `src/views/HomeView.vue` para que ele renderize o componente de Listagem de Produtos que já fizemos anteriormente. Nos exemplos que fizemos no tutorial, embora tenhamos instalado o vue-router, não estamos aplicando o seu uso. O objetivo é fazer, nesta etapa, esta integração.
 
-Para isso, edite o arquivo `src/pages/HomeView.vue` e deixe o conteúdo como segue:
+Para isso, edite o arquivo `src/views/HomeView.vue` e deixe o conteúdo como segue:
 
 ```html
 <script setup>
