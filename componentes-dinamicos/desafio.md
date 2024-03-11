@@ -1,7 +1,7 @@
 ---
 title: 'Desafio'
 description: 'Desafio para aplicar o composable de responsividade nos componentes Vue'
-permalink: /composables-responsividade/desafio
+permalink: /componentes-dinamicos/desafio
 ---
 
 # Desafio

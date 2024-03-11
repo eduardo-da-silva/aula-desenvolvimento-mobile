@@ -1,7 +1,7 @@
 ---
 title: 'Correção do desafio'
 description: 'Correção do desafio'
-permalink: /composables-responsividade/correcao
+permalink: /componentes-dinamicos/correcao
 ---
 
 # Em breve
