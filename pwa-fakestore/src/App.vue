@@ -1,9 +1,19 @@
 <script setup>
-import ListagemProdutos from '@/components/ListagemProdutos.vue';
-import HeaderComp from '@/components/HeaderComp.vue';
+import { useScreen } from '@/composables/screen';
+
+const { menu } = useScreen();
 </script>
 
 <template>
-  <HeaderComp />
-  <ListagemProdutos />
+  <div>
+    <header>
+      <component :is="menu" />
+    </header>
+    <main>
+      <router-view />
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023</p>
+    </footer>
+  </div>
 </template>
