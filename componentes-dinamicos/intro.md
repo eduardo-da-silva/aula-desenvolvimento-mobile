@@ -22,4 +22,4 @@ A ideia geral é que, ao invés de carregar todos os componentes de uma vez, car
 
 Nos exemplos a seguir, a fim de fixação do conceito, faremos 5 modelos de menu superior distintos, apenas alterando o título, para que possamos verificar o comportamento do aplicativo em diferentes tamanhos de tela. Depois, sugiro que você crie outros componentes que melhor se adaptem ao seu projeto.
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[Criando os arquivos de menu supoerior &gt;](criando-arquivos-menu-superior.html 'Próximo')</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[Criando os arquivos de menu superior &gt;](criando-arquivos-menu-superior.html 'Próximo')</span></span>
