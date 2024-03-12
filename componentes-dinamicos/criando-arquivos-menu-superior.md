@@ -41,7 +41,7 @@ Então, faremos uma cópia do arquivo `src/components/MenuSuperior.vue` e renome
     <div class="header--icons">
       <Account />
       <CartPlus />
-      <menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
+      <Menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
     </div>
   </header>
 </template>
@@ -139,7 +139,7 @@ Então, faremos uma cópia do arquivo `src/components/MenuSuperior.vue` e renome
     <div class="header--icons">
       <Account />
       <CartPlus />
-      <menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
+      <Menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
     </div>
   </header>
 </template>
@@ -237,7 +237,7 @@ Então, faremos uma cópia do arquivo `src/components/MenuSuperior.vue` e renome
     <div class="header--icons">
       <Account />
       <CartPlus />
-      <menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
+      <Menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
     </div>
   </header>
 </template>
@@ -335,7 +335,7 @@ Então, faremos uma cópia do arquivo `src/components/MenuSuperior.vue` e renome
     <div class="header--icons">
       <Account />
       <CartPlus />
-      <menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
+      <Menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
     </div>
   </header>
 </template>
@@ -433,7 +433,7 @@ Então, faremos uma cópia do arquivo `src/components/MenuSuperior.vue` e renome
     <div class="header--icons">
       <Account />
       <CartPlus />
-      <menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
+      <Menu class="menu-hamburger" @click="menuAberto = !menuAberto" />
     </div>
   </header>
 </template>

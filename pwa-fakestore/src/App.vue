@@ -7,6 +7,7 @@ const { menu } = useScreen();
 <template>
   <div>
     <component :is="menu" />
+
     <main>
       <router-view />
     </main>
