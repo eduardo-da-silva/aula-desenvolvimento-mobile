@@ -41,6 +41,18 @@ Feito isso, edite o arquivo `src/App.vue` e substitua o conteúdo, deixando apen
 <script setup></script>
 
 <template>
+  <RouterView />
+</template>
+
+<style scoped></style>
+```
+
+Agora, edite o arquivo `src/views/HomeView.vue` e substitua o conteúdo, deixando apenas o seguinte:
+
+```html
+<script setup></script>
+
+<template>
   <h1>Loja Virtual</h1>
 </template>
 ```
