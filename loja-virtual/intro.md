@@ -50,7 +50,7 @@ Note que no exemplo anterior, escolhemos não usar o o suporte ao TypeScript e J
 Em seguida, já faremos as instalações necessárias, como estudadas nas aulas anteriores, para suportar aplicações PWA.
 
 ```bash
-npm install vite-plugin-pwa workbox-precaching axios
+npm install vite-plugin-pwa workbox-precaching axios @mdi/font
 ```
 
 Já estudamos a instalação do `vite-plugin-pwa` e do `workbox-precaching`. O `axios`, também já conhecido, é uma biblioteca que facilita a realização de requisições HTTP.
