@@ -143,7 +143,7 @@ Neste arquivo, estamos importando o `VitePWA` e adicionando-o como _plugin_ do V
 
 # Ajustes no arquivo index.html
 
-Agora, vamos ajustar o arquivo `index.html` que está na pasta `public`. Abra este arquivo e adicione o seguinte conteúdo, dentro da tag `head`:
+Agora, vamos ajustar o arquivo `index.html` que está na pasta raiz do projeto. Abra este arquivo e adicione o seguinte conteúdo, dentro da tag `head`:
 
 ```html
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
