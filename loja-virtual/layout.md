@@ -289,8 +289,4 @@ export default router;
 
 Feito isso, teste a aplicação para verificar se está tudo funcionando corretamente. Lembre que para testar a aplicação, você deve executar o comando `npm run dev` no terminal.
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; A loja virtual](. 'Voltar')</span><span>[??? &gt;](??? 'Próximo')</span></span>
-
-```
-
-```
+<span style="display: flex; justify-content: space-between;"><span>[&lt; A loja virtual](. 'Voltar')</span><span>[Ajustes finos na organização do layout &gt;](layout-grid.html 'Próximo')</span></span>
