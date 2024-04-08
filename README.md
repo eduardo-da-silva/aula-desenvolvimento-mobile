@@ -49,4 +49,6 @@ Bons estudos!
    5.5 [Desafio](componentes-dinamicos/desafio.md)  
    5.6 [Correção do desafio](componentes-dinamicos/correcao.md)
 6. [Aula 6 - Projeto da Loja Virtual - Tutorial](loja-virtual/intro.md)  
-   6.1 [Organização do Layout](loja-virtual/layout.md)
+   6.1 [Organização do Layout](loja-virtual/layout.md)  
+   6.2 [Ajustes finos na organização do layout](loja-virtual/layout-grid.md)  
+   6.3 [Listagem de produtos](loja-virtual/listagem-produtos.md)

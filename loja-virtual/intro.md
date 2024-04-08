@@ -8,6 +8,8 @@ permalink: /loja-virtual/
 
 1. [Entendendo o projeto](#entendendo-o-projeto)
 2. [Organização do Layout](layout.html)
+3. [Ajustes finos na organização do layout](layout-grid.html)
+4. [Listagem de produtos](listagem-produtos.html)
 
 # Entendendo o projeto
 
