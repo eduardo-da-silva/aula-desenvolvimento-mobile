@@ -205,4 +205,4 @@ import ProductList from '@/components/ProductList.vue';
 
 Neste arquivo, estamos importando o componente `ProductList` e exibindo-o na tela.
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; A loja virtual](. 'Voltar')</span><span>[??? &gt;](??? 'Próximo')</span></span>
+<span style="display: flex; justify-content: space-between;"><span>[&lt; A loja virtual](. 'Voltar')</span><span>[Ajustes no cabeçalho e rodapé &gt;](cabecalho-rodape.html 'Próximo')</span></span>

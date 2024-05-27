@@ -17,6 +17,9 @@ const formatPrice = (price) => `R$ ${price.toFixed(2).replace('.', ',')}`;
     <h1>
       Produtos
     </h1>
+    <dir>
+      <input type="text">
+    </dir>
     <div class="container">
       <div class="card" v-for="produto in produtos" :key="produto.id">
         <div>
