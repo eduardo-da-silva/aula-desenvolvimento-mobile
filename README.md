@@ -52,3 +52,6 @@ Bons estudos!
    6.1 [Organização do Layout](loja-virtual/layout.md)  
    6.2 [Ajustes finos na organização do layout](loja-virtual/layout-grid.md)  
    6.3 [Listagem de produtos](loja-virtual/listagem-produtos.md)
+7. [Aula 7 - Autenticação em PWA](autenticacao/intro.md)  
+   7.1 [Configuração do Passage](autenticacao/configuracao-passage.md)  
+   7.2 [Configuração no Vue](autenticacao/configuracao-no-vue.md)
