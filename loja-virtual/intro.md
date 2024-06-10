@@ -153,4 +153,10 @@ Agora, vamos ajustar o arquivo `index.html` que está na pasta raiz do projeto. 
 <title>Fake Store</title>
 ```
 
+# Preparando um backend
+
+Para validar o funcionamento do que faremos nas aulas seguintes, é importante que você tenha um backend que forneça os dados para a aplicação. Você mesmo pode desenvolver o seu backend ou usar um já pronto.
+
+Para que possamos criar o projeto, vamos considerar ainda o uso de um backend feito em Django com Django Rest Framework. Para facilitar o desenvolvimento, vamos utilizar o Docker para criar o ambiente de desenvolvimento. O código fonte do backend está disponível neste [repositório] (https://github.com/eduardo-da-silva/fakestore-backend-drf/). Você pode rodar o repositório localmente ou utilizar uma imagem Docker, que já deixei pronta para você. As orientações para uso do projeto estão disponíveis no README do repositório.
+
 <span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[A organização do layout &gt;](layout.html 'Próximo')</span></span>
