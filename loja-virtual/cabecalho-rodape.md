@@ -117,6 +117,184 @@ Neste arquivo, estamos criando um componente para exibir os links de ajuda, cont
 
 Da mesma forma, fizemos ajustes na apresentação dos links de navegação, definindo um espaçamento entre eles e o alinhamento horizontal. Ainda não configuramos a navegação para as páginas de ajuda, contato e termos de privacidade, sendo que todos os links apontam para a página inicial.
 
+# Ajuste no cabeçalho e rodapé de telas médias
+
+Para telas médias, vamos fazer ajustes no cabeçalho e rodapé da aplicação. Para isso, vamos editar o arquivo `src/componentes/templates/medium/MediumHeader.vue`, com o seguinte conteúdo:
+
+```vue
+<script setup>
+import Magnify from 'vue-material-design-icons/Magnify.vue';
+</script>
+
+<template>
+  <div class="icons">
+    <Magnify />
+  </div>
+</template>
+
+<style scoped>
+.icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+</style>
+```
+
+Note que estamos importando o ícone de busca da biblioteca Material Design Icons e exibindo-o na tela. O tamanho do ícone é definido no CSS, bem como o espaçamento entre eles e o alinhamento horizontal.
+
+Em seguida, vamos editar o arquivo `src/componentes/templates/medium/MediumFooter.vue`, com o seguinte conteúdo:
+
+```vue
+<script setup>
+import Facebook from 'vue-material-design-icons/Facebook.vue';
+import Twitter from 'vue-material-design-icons/Twitter.vue';
+import Instagram from 'vue-material-design-icons/Instagram.vue';
+</script>
+<template>
+  <div class="links">
+    <RouterLink to="/">Help</RouterLink>
+    <RouterLink to="/">Contact Us</RouterLink>
+    <RouterLink to="/">Privacy & Terms</RouterLink>
+  </div>
+  <div class="icons">
+    <Facebook size="30" />
+    <Twitter size="30" />
+    <Instagram size="30" />
+  </div>
+</template>
+<style scoped>
+.links {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 4rem;
+  font-size: 1.2rem;
+}
+
+.links a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.icons {
+  padding-right: 3rem;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+</style>
+```
+
+Neste arquivo, estamos importando os ícones das redes sociais da biblioteca Material Design Icons e exibindo-os na tela. O tamanho dos ícones é definido no CSS, bem como o espaçamento entre eles e o alinhamento horizontal.
+
 # Ajuste no cabeçalho e rodapé de telas pequenas
 
-<span style="display: flex; justify-content: space-between;"><span>[&lt; Listagem de produtos](listagem-produtos.html 'Voltar')</span><span>[Ajustes no cabeçalho e rodapé &gt;](cabecalho-rodape.html 'Próximo')</span></span>
+Por fim, vamos fazer ajustes no cabeçalho e rodapé da aplicação para telas pequenas. Para isso, vamos editar o arquivo `src/componentes/templates/small/SmallHeader.vue`, com o seguinte conteúdo:
+
+```vue
+<script setup>
+import Magnify from 'vue-material-design-icons/Magnify.vue';
+import LogoTitle from '@/components/templates/LogoTitle.vue';
+</script>
+
+<template>
+  <logo-title class="pl-0" />
+  <div class="icons">
+    <Magnify />
+  </div>
+</template>
+
+<style scoped>
+.pl-0 {
+  padding-left: 0rem;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+</style>
+```
+
+Da mesma forma, estamos importando o ícone de busca da biblioteca Material Design Icons e exibindo-o na tela. O tamanho do ícone é definido no CSS, bem como o espaçamento entre eles e o alinhamento horizontal.
+
+E, para o rodapé, vamos editar o arquivo `src/componentes/templates/small/SmallFooter.vue`, com o seguinte conteúdo:
+
+```vue
+<script setup>
+import AccountCircleOutline from 'vue-material-design-icons/AccountCircleOutline.vue';
+import CartOutline from 'vue-material-design-icons/CartOutline.vue';
+import HomeOutline from 'vue-material-design-icons/HomeOutline.vue';
+import Menu from 'vue-material-design-icons/Menu.vue';
+</script>
+<template>
+  <div class="icons">
+    <RouterLink to="/">
+      <HomeOutline size="25" fillColor="#282828" />
+      Home
+    </RouterLink>
+    <RouterLink to="/">
+      <AccountCircleOutline size="25" fillColor="#282828" />
+      Perfil
+    </RouterLink>
+    <RouterLink to="/">
+      <CartOutline size="25" fillColor="#282828" />
+      Carrinho
+    </RouterLink>
+    <RouterLink to="/">
+      <Menu size="25" fillColor="#282828" />
+      Menu
+    </RouterLink>
+  </div>
+</template>
+<style scoped>
+#footerMenu {
+  position: fixed;
+  bottom: 15%;
+  right: 0;
+
+  width: 20%;
+  border-top: #eeeeee 1px solid;
+  background-color: white;
+
+  display: block;
+  padding: 1rem;
+}
+
+#footerMenu a {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #282828;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.icons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #282828;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+</style>
+```
+
+Neste arquivo, estamos importando os ícones de perfil, carrinho, home e menu da biblioteca Material Design Icons e exibindo-os na tela. O tamanho dos ícones é definido no CSS, bem como o espaçamento entre eles e o alinhamento horizontal.
+
+Nas próximas aulas, vamos configurar a navegação para as páginas de ajuda, contato e termos de privacidade, bem como adicionar funcionalidades aos ícones do cabeçalho. Por isso, faremos alterações nos arquivos de cabeçalho e rodapé, quando necessário.
+
+<span style="display: flex; justify-content: space-between;"><span>[&lt; Listagem de produtos](listagem-produtos.html 'Voltar')</span><span>[Preparando a tela de Login &gt;](preparando-login.html 'Próximo')</span></span>

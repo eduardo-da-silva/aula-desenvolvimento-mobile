@@ -10,6 +10,8 @@ permalink: /loja-virtual/
 2. [Organização do Layout](layout.html)
 3. [Ajustes finos na organização do layout](layout-grid.html)
 4. [Listagem de produtos](listagem-produtos.html)
+5. [Ajustes no cabeçalho e rodapé](cabecalho-rodape.html)
+6. [Preparando a tela de login](preparando-login.html)
 
 # Entendendo o projeto
 
