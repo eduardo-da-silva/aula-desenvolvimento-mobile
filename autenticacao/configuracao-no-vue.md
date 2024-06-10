@@ -44,7 +44,7 @@ import axios from 'axios';
 
 export default class AuthService {
   async postUserToken(token) {
-    const response = await axios.post('/auth/', null, {
+    const response = await axios.get('/users/me/', {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -54,7 +54,7 @@ export default class AuthService {
 }
 ```
 
-Note que criamos um método `postUserToken` que faz uma chamada POST para a URL `/auth/` com o token do usuário. Esta URL está configurada no _backend_, e é responsável para receber o `token` enviado pelo Passage, validar o token e retornar o usuário autenticado. Caso o usuário ainda esteja criado no _backend_, ele será criado e autenticado.
+Note que criamos um método `postUserToken` que faz uma chamada POST para a URL `/users/me/` com o token do usuário. Esta URL está configurada no _backend_, e é responsável para receber o `token` enviado pelo Passage, validar o token e retornar o usuário autenticado. Caso o usuário ainda esteja criado no _backend_, ele será criado e autenticado.
 
 Em seguida, vamos criar um _store_ para armazenar o token do usuário. Para isso, crie um arquivo chamado `src/stores/auth.js` e adicione o seguinte código:
 
@@ -102,7 +102,6 @@ const getUserInfo = async () => {
     await authStore.setToken(authToken);
   } else {
     authStore.unsetToken();
-    console.log('User is signed out');
   }
 };
 
@@ -117,5 +116,30 @@ onMounted(() => {
 ```
 
 Note que ao carregar a página, o método `getUserInfo` é chamado. Este método faz uma chamada para o método `userInfo` do `PassageUser` e verifica se o usuário está autenticado. Caso o usuário esteja autenticado, o token é armazenado no _store_ `auth`. Caso o usuário não esteja autenticado, o token é removido do _store_ `auth`.
+
+# Verificando a autenticação
+
+Para verificar se o usuário está autenticado, você pode abrir o Vue DevTools e verificar o _store_ `auth`. Caso o usuário esteja autenticado, o _store_ `auth` deve conter as informações do usuário.
+
+# Enviando o token nas requisições para o backend
+
+Como última etapa, vamos garantir que o token seja enviado nas requisições para o _backend_. Para isso, vamos editar o arquivo `src/plugins/axios.js` e adicionar o seguinte código:
+
+```javascript
+axios.interceptors.request.use(
+  (config) => {
+    const token = localStorage.getItem('psg_auth_token');
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  },
+);
+```
+
+Como isso, o token será enviado em todas as requisições para o _backend_, como um cabeçalho `Authorization`.
 
 <span style="display: flex; justify-content: space-between;"><span>[&lt; Configuração do Passage](configuracao-passage.html 'Voltar')</span> <span>[Sumário &gt;](../ 'Próximo')</span></span>

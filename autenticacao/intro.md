@@ -12,4 +12,6 @@ A Passage é uma plataforma de autenticação que permite que você adicione aut
 
 Um recurso interessante da Passage é a possibilidade de se autenticar com biometria. Para isso, é necessário que o dispositivo do usuário tenha suporte a biometria.
 
+Para que possamos criar o projeto, vamos considerar ainda o uso de um backend feito em Django com Django Rest Framework. Para facilitar o desenvolvimento, vamos utilizar o Docker para criar o ambiente de desenvolvimento. O código fonte do backend está disponível neste [repositório] (https://github.com/eduardo-da-silva/fakestore-backend-drf/). Você pode rodar o repositório localmente ou utilizar uma imagem Docker, que já deixei pronta para você. As orientações para uso do projeto estão disponíveis no README do repositório.
+
 <span style="display: flex; justify-content: space-between;"><span>[&lt; Início](../ 'Início')</span> <span>[Configuração do Passage &gt;](configuracao-passage.html 'Próximo')</span></span>
