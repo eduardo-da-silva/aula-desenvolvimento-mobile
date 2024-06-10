@@ -173,4 +173,10 @@ footer {
 
 Neste arquivo, estamos definindo um layout de grade com três áreas: `header`, `main` e `footer`. Estamos ajustando o espaçamento entre os elementos e definindo a altura mínima da aplicação.
 
+# Alguns detalhes finais
+
+Note que em um projeto maior você poderia querer criar duas ou mais aplicações separadas, uma para cada tipo de dispositivo ou perfil de uso. Por exemplo, no caso da loja virtual, você poderia criar uma aplicação mais voltada para a administração da loja, com recursos para adicionar produtos, gerenciar pedidos, etc., e outra aplicação mais voltada para o cliente, com recursos para visualizar produtos, fazer pedidos, etc.
+
+No entanto, para manter as coisas simples, vamos manter tudo em um único projeto, embora isso possa parecer um pouco estranho, visto que em projetos reais, os clientes finais não teriam acesso aos recursos de administração da loja.
+
 <span style="display: flex; justify-content: space-between;"><span>[&lt; A organização do layout](layout.html 'Voltar')</span><span>[Listagem de produtos &gt;](listagem-produtos.html 'Próximo')</span></span>
