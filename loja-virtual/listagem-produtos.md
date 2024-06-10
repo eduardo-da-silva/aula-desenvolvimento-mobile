@@ -5,16 +5,24 @@ permalink: /loja-virtual/listagem-produtos
 
 # Chamada da API
 
-Vamos iniciar com a configuração global do pacote `axios`. Para isso, vamos criar o arquivo `src/plugins/axios.js` com o seguinte conteúdo:
+Inicialmente, vamos criar um arquivo `.env` na raiz do projeto com a seguinte configuração:
+
+```env
+VITE_BACKEND_BASE_URL=http://localhost:8000
+```
+
+Quanto usamos o Vite para gerenciar nossos projetos, podemos criar variáveis de ambiente prefixadas com `VITE_` e acessá-las no código usando `import.meta.env.VITE_NOME_DA_VARIAVEL`. Neste caso, estamos criando uma variável chamada `VITE_BACKEND_BASE_URL` que armazena a URL base do nosso backend.
+
+Feito isso, vamos realizar com a configuração global do pacote `axios`. Para isso, vamos criar o arquivo `src/plugins/axios.js` com o seguinte conteúdo:
 
 ```javascript
 import axios from 'axios';
+const BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
 
-axios.defaults.baseURL =
-  'https://fakestore-backend-dev-rpqh.4.us-1.fl0.io/api/';
+axios.defaults.baseURL = `${BASE_URL}/api/`;
 ```
 
-Note que estamos configurando a URL base da API FakeStore desenvolvida em Django. Você pode querer usar outro servidor ou baixar o projeto e rodar localmente. Para isso, você precisará alterar apenas a URL base.
+Note que estamos configurando a URL base da API FakeStore desenvolvida em Django, como informando no arquivo `.env`. Você pode querer usar outro servidor ou baixar o projeto e rodar localmente. Para isso, você precisará alterar apenas a URL base.
 
 Em seguida, vamos criar uma classe para consultar a API. Para isso, vamos criar o arquivo `src/services/product.js` com o seguinte conteúdo:
 
