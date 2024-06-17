@@ -54,9 +54,9 @@ export default class AuthService {
 }
 ```
 
-Note que criamos um método `postUserToken` que faz uma chamada POST para a URL `/users/me/` com o token do usuário. Esta URL está configurada no _backend_, e é responsável para receber o `token` enviado pelo Passage, validar o token e retornar o usuário autenticado. Caso o usuário ainda esteja criado no _backend_, ele será criado e autenticado.
+Note que criamos um método `postUserToken` que faz uma chamada POST para a URL `/users/me/` com o _token_ do usuário. Esta URL está configurada no _backend_, e é responsável para receber o _token_ enviado pelo Passage, validar o _token_ e retornar o usuário autenticado. Caso o usuário ainda não esteja criado no _backend_, ele será criado e autenticado.
 
-Em seguida, vamos criar um _store_ para armazenar o token do usuário. Para isso, crie um arquivo chamado `src/stores/auth.js` e adicione o seguinte código:
+Em seguida, vamos criar um _store_ para armazenar o _token_ do usuário. Para isso, crie um arquivo chamado `src/stores/auth.js` e adicione o seguinte código:
 
 ```javascript
 import { ref } from 'vue';
