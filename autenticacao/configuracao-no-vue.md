@@ -9,7 +9,7 @@ permalink: /autenticacao/configuracao-no-vue
 Para instalar as dependências do Passage, execute o seguinte comando:
 
 ```bash
-npm install @passageidentity/passage-elements @passageidentity/passage-auth"
+npm install @passageidentity/passage-elements @passageidentity/passage-auth
 ```
 
 # Criando a página de Login
