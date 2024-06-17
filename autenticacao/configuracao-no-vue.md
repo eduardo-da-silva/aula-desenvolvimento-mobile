@@ -92,15 +92,19 @@ import { onMounted } from 'vue';
 import { PassageUser } from '@passageidentity/passage-elements/passage-user';
 import { useAuthStore } from '@/stores/auth';
 
-const passageUser = new PassageUser();
 const authStore = useAuthStore();
 
 const getUserInfo = async () => {
-  const user = await passageUser.userInfo();
-  if (user) {
+  try {
     const authToken = localStorage.getItem('psg_auth_token');
-    await authStore.setToken(authToken);
-  } else {
+    const passageUser = new PassageUser(authToken);
+    const user = await passageUser.userInfo(authToken);
+    if (user) {
+      await authStore.setToken(authToken);
+    } else {
+      authStore.unsetToken();
+    }
+  } catch (error) {
     authStore.unsetToken();
   }
 };
