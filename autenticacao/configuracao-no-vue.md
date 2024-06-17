@@ -72,7 +72,7 @@ export const useAuthStore = defineStore('auth', () => {
     user.value = await authService.postUserToken(token);
   }
 
-  async function unsetToken() {
+  function unsetToken() {
     user.value = {};
   }
 
