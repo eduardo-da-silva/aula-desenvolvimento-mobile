@@ -150,6 +150,18 @@ Neste arquivo, estamos importando o `VitePWA` e adicionando-o como _plugin_ do V
 Agora, vamos ajustar o arquivo `index.html` que está na pasta raiz do projeto. Abra este arquivo e adicione o seguinte conteúdo, dentro da tag `head`:
 
 ```html
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, minimum-scale=1"
+/>
+
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta
+  name="apple-mobile-web-app-status-bar-style"
+  content="black-translucent"
+/>
+
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <meta name="theme-color" content="#ffffff" />
 <title>Fake Store</title>
