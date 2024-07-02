@@ -24,6 +24,12 @@ axios.defaults.baseURL = `${BASE_URL}/api/`;
 
 Note que estamos configurando a URL base da API FakeStore desenvolvida em Django, como informando no arquivo `.env`. Você pode querer usar outro servidor ou baixar o projeto e rodar localmente. Para isso, você precisará alterar apenas a URL base.
 
+Então, vamos editar o arquivo `src/main.js` e adicionar a seguinte linha logo abaixo da linha que importa o `router`:
+
+```javascript
+import './plugins/axios';
+```
+
 Em seguida, vamos criar uma classe para consultar a API. Para isso, vamos criar o arquivo `src/services/product.js` com o seguinte conteúdo:
 
 ```javascript
