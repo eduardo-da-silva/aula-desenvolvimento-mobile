@@ -123,11 +123,15 @@ onMounted(async () => {
         <i class="mdi mdi-heart-outline" />
       </div>
       <div class="product-title-price">
+        {% raw %}
         <p>{{ formatTitle(product.title) }}</p>
         <p>{{ formatPrice(product.price * 1) }}</p>
+        {% endraw %}
       </div>
       <div class="product-description-stars">
+        {% raw %}
         <p>{{ formatDescription(product.description) }}</p>
+        {% endraw %}
         <div class="stars">
           <i class="mdi mdi-star" size="20" />
           <i class="mdi mdi-star" size="20" />
